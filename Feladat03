@@ -1,0 +1,9 @@
+<script>
+
+let randomSzam=Math.round(Math.random()*(110-10))+10;
+
+if (randomSzam%2==0) {
+ document.write(randomSzam);
+}
+
+</script>
