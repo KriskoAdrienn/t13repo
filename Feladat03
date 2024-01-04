@@ -2,8 +2,11 @@
 
 let randomSzam=Math.round(Math.random()*(110-10))+10;
 
-if (randomSzam%2==0) {
- document.write(randomSzam);
+if (randomSzam%2==1) {
+	randomSzam==randomSzam+1
+ 	document.write(randomSzam);
+} else {
+document.write(randomSzam);
 }
 
 </script>
