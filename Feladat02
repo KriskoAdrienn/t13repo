@@ -1,0 +1,7 @@
+<script>
+let szam=Number(prompt("Adj meg egy számot:"));
+let hatvany=Number(prompt("Add meg a hatvány értékét:"));
+
+document.write("Az eredmény:"+szam**hatvany)
+
+</script>
