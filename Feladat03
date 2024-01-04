@@ -3,8 +3,7 @@
 let randomSzam=Math.round(Math.random()*(110-10))+10;
 
 if (randomSzam%2==1) {
-	randomSzam==randomSzam+1
- 	document.write(randomSzam);
+ 	document.write(randomSzam+1);
 } else {
 document.write(randomSzam);
 }
