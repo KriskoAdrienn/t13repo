@@ -1,11 +1,5 @@
 <script>
-
-let szam=2;
-
 for(let i=0;i<10;i++){
-	document.write(szam**2+",");
-    szam++
+	document.write(i*i+",");
     }
-    
-
 </script>
