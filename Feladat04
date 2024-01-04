@@ -2,7 +2,7 @@
 
 let kor=Number(prompt("Add meg az életkort:"));
 
-if (kor<6 && kor>0) {
+if (kor<6 && kor>=0) {
  document.write("Kisgyermekkor:0-6 év");
 } else if (kor<12 && kor>=6) {
  document.write("Gyermekkor: 6-12 év");
