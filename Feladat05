@@ -1,0 +1,11 @@
+<script>
+
+let szam=Number(prompt("Adj meg egy számot"));
+let oszto=Number(prompt("Add meg az osztó számot:"));
+
+if (szam%oszto==0) {
+ document.write(`A ${szam} számot a/az ${oszto} szám osztója, a maradék 0.`);
+ } else {
+ document.write(`A ${szam} számot a/az ${oszto}-nak nem osztója.`);
+ }
+</script>
