@@ -1,5 +1,5 @@
 var MongoClient=require("mongodb").MongoClient
-var url="mongodb+srv://T13KriskoAdrienn:Talanjolesz89@cluster0.tcxegkl.mongodb.net/"
+var url="mongodb+srv://T13KriskoAdrienn:@cluster0.tcxegkl.mongodb.net/"
 
 async function helsinkiDobogosHelyek(){
     try{
